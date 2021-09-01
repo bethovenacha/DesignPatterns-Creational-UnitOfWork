@@ -1,4 +1,4 @@
-Prerequesites:<br>
+Prerequisite:<br>
 Download: Microsoft.EntityFrameworkCore.SqlServer<br>
           Microsoft.EntityFrameworkCore.Design<br>
           Microsoft.EntityFrameworkCore.Tools<br>
