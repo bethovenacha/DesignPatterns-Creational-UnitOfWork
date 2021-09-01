@@ -1,10 +1,12 @@
-
-Unit of work pattern assumes you have a context class that inherits from DbContext class using entity framework.<br>
+Prerequesits:<br>
+Download: Microsoft.EntityFrameworkCore.SqlServer<br>
+          Microsoft.EntityFrameworkCore.Design<br>
+          Microsoft.EntityFrameworkCore.Tools<br>
+          
+Unit of work pattern assumes you have a context class that inherits from DbContext class using entity framework core.<br>
 You also need to have your domain classes for your project.<br>
 
-
-0. Include all the files from this pattern.
-1. To use this pattern you need to have this classes in your project. <br>
+1. To use this pattern you need to have the files from this repository included in your project. <br>
 2. Instantiate the UnitOfWork class give the domain class as a generic parameter<br>
   e.g. UnitOfWork<YourClass> unit = new UnitOfWork<YourClass>(YourContext);<br>
   
