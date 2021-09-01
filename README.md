@@ -10,7 +10,7 @@ You also need to have your domain classes for your project.<br>
 2. Instantiate the UnitOfWork class give the domain class as a generic parameter<br>
   e.g. UnitOfWork<YourClass> unit = new UnitOfWork<YourClass>(YourContext);<br>
   
-3. Call the method implimented from the repository.
-e.g. unit.retrive();<br>
+3. Call the method implimented from the repository.<br>
+e.g. unit.retrieve();<br>
 e.g unit.delete(object id);
 
